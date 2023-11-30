@@ -13,9 +13,12 @@ pnpm dev
 # or
 bun dev
 ```
-install pwa on nextjs
+#install pwa on nextjs
 documentation: https://ducanh-next-pwa.vercel.app/docs/next-pwa/getting-started
 - pnpm i @ducanh2912/next-pwa
+
+#Sendgrid package
+- npm i — save @sendgrid/mail
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -44,7 +47,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 	→ pnpm create next-app  <br/> <!-- <your app name>  --> <br/>
   → pnpm run dev --> hot reload, and refresh the code<br/>
 
-
 <h2>Frontend Developer ___ <span>Salvatore Dininni</span></h2>
 
 <h4>Something about Me<h4>
@@ -70,7 +72,9 @@ I will share GitLab and Github accounts upon request.</p>
 <br/>
 <br/>
 <strong>More details...<strong>
-<b>LinkedIn Profile: <a href="https://www.linkedin.com/in/salvatoredininni/" >https://www.linkedin.com/in/salvatoredininni/ </a></b>
+<b>LinkedIn Profile: <a href="https://www.linkedin.com/in/salvatoredininni/" >https://www.linkedin.com/in/salvatoredininni/ </a>
+</b>
+<br>
 <b>Portfolio Website: 
   <a href="https://portafolio-app-79yi-8v1p0jo3g-dininni8319.vercel.app/" >
     https://portafolio-app-79yi-8v1p0jo3g-dininni8319.vercel.app/
