@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import checkedSVG from '../../public/checked.svg'
-import React,{ useState, useRef, useEffect } from 'react'
+import React,{ useState, useRef, useEffect, FormEvent } from 'react'
 
 export default function Home() {
   const [email, setEmail] = useState('')
@@ -20,7 +20,9 @@ export default function Home() {
   }, [email])
   
   // create a function to send the email to the backend
-  const handleSubscribe = async () => {
+  const handleSubscribe = async (event: FormEvent) => {
+    event.preventDefault()
+    
     try {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
@@ -77,7 +79,7 @@ export default function Home() {
             </li>
           </ul>
           <div>
-            <div>
+            <form onSubmit={handleSubscribe}>
               <input 
                 type="email" 
                 placeholder="email@company.com"
@@ -89,9 +91,10 @@ export default function Home() {
                 required
               />
               <button
+                type='submit'
                 className='w-full h-10 px-2 py-2 mt-5 text-xs rounded-md bg-[#202541] text-white'
               >Subscribe to monthly newsletter</button>
-            </div>
+            </form>
           </div>
         </div>
         <div className='flex md:justify-end p-5 order-1 md:order-2'>
