@@ -13,6 +13,9 @@ pnpm dev
 # or
 bun dev
 ```
+install pwa on nextjs
+documentation: https://ducanh-next-pwa.vercel.app/docs/next-pwa/getting-started
+- pnpm i @ducanh2912/next-pwa
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

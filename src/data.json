@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "name": "John Doe",
+    "age": 24,
+    "address": "123 Fake St.",
+    "phone": "555-555-5555"
+  },
+  {
+    "id": 1,
+    "name": "Salvatore Dininni",
+    "age": 24,
+    "address": "123 Fake St.",
+    "phone": "555-555-5555"
+  }
+]
