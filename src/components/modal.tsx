@@ -22,7 +22,7 @@ export function Modal({
   return (
     <div className='flex justify-center items-center p-5 h-full'>
       <div className="bg-white p-5 rounded-xl h-full md:h-96 md:w-80">
-        <div className='flex flex-col justify-between h-full'>
+        <div className='flex flex-col h-full'>
           <div>
             <Image 
               src={checked} 
